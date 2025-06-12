@@ -81,6 +81,11 @@ class Entrega {
 
     static int exercici1(char[] ops, int[] vars) {
       int n= Array.stream(vars).max().orElse(0)+1;
+      
+      //Total de combinaciones posibles, es decir, 2^n:
+      int total = 1<<n;
+      boolean siempreCierto = true;
+      boolean siempreFals= false;
     }
 
     /*
