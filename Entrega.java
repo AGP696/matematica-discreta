@@ -47,6 +47,7 @@ import java.util.stream.IntStream;
  * L'entrega es farà a través d'una tasca a l'Aula Digital que obrirem abans de la data que se us
  * hagui comunicat. Si no podeu visualitzar bé algun enunciat, assegurau-vos de que el vostre editor
  * de texte estigui configurat amb codificació UTF-8.
+ * Hola
  */
 class Entrega {
   static final String[] NOMS = {};
