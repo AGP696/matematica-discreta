@@ -80,7 +80,7 @@ class Entrega {
     static final char NAND = '.';
 
     static int exercici1(char[] ops, int[] vars) {
-      throw new UnsupportedOperationException("pendent");
+      int n= Array.stream(vars).max().orElse(0)+1;
     }
 
     /*
