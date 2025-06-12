@@ -86,8 +86,15 @@ class Entrega {
       int total = 1<<n;
       boolean siempreCierto = true;
       boolean siempreFals= false;
-    }
 
+      for(int mask=0; mask< total; mask++){
+        //Obtener los valores booleanos de las variables para esta combinancion
+        boolean[] valores = new boolean[n];
+        for(int i=0; i<n ; i++){
+          valores[i] = (mask & (1<<i)) !=0;
+        }
+      }
+    }
     /*
      * Aquest mètode té de paràmetre l'univers (representat com un array) i els predicats
      * adients `p` i `q`. Per avaluar aquest predicat, si `x` és un element de l'univers, podeu
