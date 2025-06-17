@@ -939,7 +939,6 @@ class Entrega {
         return "Patata".equals(decr);
       });
     }
-  }
 
   /*
    * Aquest mètode `main` conté alguns exemples de paràmetres i dels resultats que haurien de donar
